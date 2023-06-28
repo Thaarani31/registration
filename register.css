@@ -1,0 +1,49 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+.registration_page{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    padding-left :1000px;
+    padding-bottom: 500px;
+}
+.registration_page h1{
+     font-size: 50px;
+     color:snow;
+     font-family: 'Times New Roman', Times, serif;
+}
+.registration_page p{
+    font-size: 30px;
+    margin: 15px 0;
+    font-weight: bold;
+    color:lightskyblue; 
+}
+.registration_page input{
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 30%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.registration_page button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    
+}
+.registration_page button:hover{
+    color:deeppink;
+}
